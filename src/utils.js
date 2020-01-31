@@ -66,7 +66,7 @@ declare const ${moduleName}: ${moduleName}.${interfaceName} & {
   locals: ${moduleName}.${interfaceName};
 };
 
-export = ${moduleName};`;
+export default ${moduleName};`;
 };
 
 module.exports = {
